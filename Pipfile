@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "==6.7"
+icalendar = "==4.0.2"
+itsdangerous = "==0.24"
+python-dateutil = "==2.7.3"
+pytz = "==2018.5"
+six = "==1.11.0"
+wsgiref = "==0.1.2"
+Flask = "==1.0.2"
+Flask-SQLAlchemy = "==2.3.2"
+Jinja2 = "==2.10"
+MarkupSafe = "==1.0"
+SQLAlchemy = "==1.2.10"
+Werkzeug = "==0.14.1"
+bcrypt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
